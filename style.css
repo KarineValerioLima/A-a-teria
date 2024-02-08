@@ -9,7 +9,7 @@ body{
     font-family: 'Kanit', sans-serif;
     padding-left: 50px;
     padding-right: 50px;
-    background-color: rgb(171, 126, 214);
+    background-color: rgb(179, 139, 218);
 }
 
 .topo {
@@ -39,7 +39,7 @@ a{
     border: 2px solid black;
     border-radius: 5px;
     width: auto;
-    background-color: rgb(191, 123, 255);
+    background-color: rgb(153, 92, 211);
 }
 
 .topo a img{
@@ -147,6 +147,7 @@ h3 {
 
 .beneficios {
     padding: 0 100px;
+    height: auto;
     display: flex;
     gap: 140px;
     justify-content: center;
@@ -166,6 +167,7 @@ h3 {
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding-bottom: 20px;
 }
 
 .beneficio h4 {
@@ -183,6 +185,7 @@ h3 {
 
 #sobre-nos {
     padding: 40px 0;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: start;
@@ -272,7 +275,7 @@ footer li:hover {
         left: -250px; /* Esconde o menu fora da tela */
         width: 250px;
         height: 100%;
-        background-color: var(--roxo-medio); /* Cor de fundo do menu */
+        background-color: #ffffff; /* Cor de fundo do menu */
         transition: left 0.3s ease;
         z-index: 1000; /* Garante que o menu esteja acima de outros elementos */
         flex-direction: column;
@@ -305,10 +308,6 @@ footer li:hover {
         color: var(--branco);
         text-decoration: none;
         font-size: 18px;
-    }
-
-    .botao-primario {
-        display: none;
     }
 
     .botao-menu {
@@ -405,6 +404,7 @@ footer li:hover {
         text-align: center;
         align-items: center;
         justify-content: center;
+        gap: 40px;
     }
 
     #sobre-nos .esquerda h2, p{
@@ -412,11 +412,14 @@ footer li:hover {
     }
 
     #sobre-nos .esquerda img {
-        width: 400px;
+        width: 370px;
     }
-
+    body {
+        padding: 10px;
+    }
     #sobre-nos .direita {
         width: auto;
+        padding: 30px;
     }
 
     footer {
